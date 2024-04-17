@@ -1,9 +1,10 @@
+import Hero from "@/components/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      This is my portfolio website 
+    <div className="bg-[#2B2B32]">
+      <Hero />
     </div>
      );
 }
