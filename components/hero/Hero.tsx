@@ -7,7 +7,7 @@ import { FaBehance, FaDribbble, FaGithub } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className='max-w-[1440px] mx-auto h-[90vh] flex px-[8vw] items-center justify-center'>
+    <div className='max-w-[1540px] mx-auto h-[90vh] flex px-[8vw] items-center justify-center'>
       <div className='flex-1 flex space-x-14 justify-center items-center'>
         {/* Social Media Icons */}
         <div className='flex flex-col items-center'>
@@ -30,11 +30,11 @@ const Hero = () => {
 
         {/* Title and Description and CTA */}
         <div className=''>
-          <p className='text-[4vw] leading-[5vw]'>👋 Hello, I&apos;m <span className='bg-gradient-to-r text-transparent from-[#E63929] to-[#C44BF1] bg-clip-text'>Yididiya Kebede, a </span><span className='text-[4vw] bg-gradient-to-r text-transparent from-[#E63929] to-[#C44BF1] bg-clip-text font-bold py-0 leading-tight mb-4'>UI/UX Designer.</span></p>
+          <p className='text-[3.5vw] leading-[5vw]'>👋 Hello, I&apos;m <span className='bg-gradient-to-r text-transparent from-[#E63929] to-[#C44BF1] bg-clip-text'>Yididiya Kebede, a </span><span className='text-[3.5vw] bg-gradient-to-r text-transparent from-[#E63929] to-[#C44BF1] bg-clip-text font-bold py-0 leading-tight mb-4'>UI/UX Designer.</span></p>
           <p className='font-light w-[95%] leading-7'>Innovative UI/UX Designer with a strong background in user research, wireframing, prototyping, and usability testing. Proficient in Figma, Adobe XD, and Sketch, with a proven track record of enhancing user engagement and satisfaction through intuitive, user-centric designs.</p>
           <div className='flex space-x-3 mt-6'>
-            <button className='bg-gradient-to-r from-[#E63929] to-[#C44BF1] rounded-full py-3 px-6 text-lg'>Let's Connect</button>
-            <button className='bg-[#C44BF1] rounded-full py-3 px-6 text-lg'>Check My Works</button>
+            <button className='bg-gradient-to-r from-[#E63929] to-[#C44BF1] rounded-full py-3 px-6 text-md'>Let's Connect</button>
+            <button className='bg-[#C44BF1] rounded-full py-3 px-6 text-md'>Check My Works</button>
           </div>
         </div>
         {/* Title and Description */}

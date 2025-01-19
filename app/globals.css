@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.image-background {
+  image-rendering: -webkit-optimize-contrast; /* Improve rendering quality */
+}
